@@ -1,0 +1,115 @@
+/* Create a file events.module.css (Next.js will automatically handle CSS modules) */
+
+/* events.module.css */
+
+.events-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .events-container h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .events-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .events-list li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+  }
+  
+  .events-list h2 {
+    margin-top: 0;
+  }
+  
+  .events-list p {
+    margin-bottom: 10px;
+  }
+
+  /* events.module.css */
+
+/* ... (previously defined styles) */
+
+.events-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #050505; /* Dark background color */
+    color: #fff; /* Text color */
+  }
+  
+  .events-container h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .events-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .event-card {
+    border: 1px solid #3d3d3d; /* Border color */
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #0f0f0f; /* Card background color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .event-info {
+    flex: 1;
+  }
+  
+  .event-info h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .event-info p {
+    margin-bottom: 10px;
+  }
+  
+  .event-image {
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+/* events.module.css */
+
+/* ... (previously defined styles) */
+
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .calendar-day {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #3d3d3d;
+    border-radius: 5px;
+    background-color: #0f0f0f;
+    color: #fff;
+  }
+  
+  .calendar-day h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  /* Adjustments as per your preference for the calendar layout and styling */
+    
